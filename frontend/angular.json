@@ -55,6 +55,9 @@
         },
         "serve": {
           "builder": "@angular/build:dev-server",
+          "options": {
+            "allowedHosts": ["ultron.hack2skill.com"]
+          },
           "configurations": {
             "production": {
               "buildTarget": "frontend:build:production"
